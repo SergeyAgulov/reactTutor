@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './header.css';
+import './mainmenu.css';
 
 export default class Mainmenu extends Component {
   render() {

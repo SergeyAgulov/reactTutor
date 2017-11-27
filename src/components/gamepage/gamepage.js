@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import './header.css';
+import './gamepage.css';
+import Game from '../../components/game/game.js';
 
 export default class Gamepage extends Component {
   render() {
     return (
-      <div className='Mainmenu'></div>
+      <div className='gamepage'>
+        <Game/>
+      </div>
     )
   }
 }
